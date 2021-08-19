@@ -13,4 +13,4 @@ sale = float(input('sale (RM): '))
 if cost == sale:
     print('No profit')
 else:
-    calcPercent(cost,sale
+    calcPercent(cost,sale)
