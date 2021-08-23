@@ -1,1 +1,1 @@
-# Tutorial-Python-Youtube
+# Projek Python (simple)
