@@ -1,22 +1,27 @@
-file = open("notes.txt","w+")
-file = file.write('''Your notes:
-===========\n\n''')
+fail = open("nota.txt","w+")
+fail.write("NOTA ANDA:\n===========\n\n")
+fail.close()
+fail = open("nota.txt","a")
 
-print('\nCreate your own notes')
-print('=====================\n')
+def menu():
+    print("==================")
+    print("Tuliskan nota anda")
+    print("==================\n")
+    print("Taip 'exit()' untuk berhenti menulis nota")
+    print("Had adalah 20\n")
+    main()
+
 
 def main():
-    command = ''
-    while command != 'exit()':
-        for i in range(1,11):
-            notes = input(f'{i}. ')
-            file = open("notes.txt","a")
-            file.write(f'{notes}\n')
-            if notes == 'exit()':
-                break
-        command = 'exit()'
+    for i in range(1, 21):
+        nota = input(f"{i}. ")
+        if nota == "exit()":
+            break
+        else:
+            fail.write(f"{nota}\n")
+    
+    print("\nTerima Kasih")
 
-main()
 
-print('\nThank you!')
-print('==========')
+if __name__ == "__main__":
+    menu()
