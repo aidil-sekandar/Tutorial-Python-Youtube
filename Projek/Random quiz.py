@@ -9,8 +9,8 @@ questions = [
 ["Third Generation Programming Language also known as ...\n\na. Assembly Language\nb. Low Level Language\nc. Binary code\nd. High level Language", "d"],
 ["In coding terms, a placeholder for a piece of information or values from specific data types is ...\n\na. Editor\nb. Variables\nc. if statement\nd. loops", "b"],
 ["In coding terms, the action of doing something over and over again is ...\n\na. if statement\nb. repeating\nc. loop\nd. while", "c"]
-]
 # add more questions in the same format
+]
 
 score = 0
 turn = [0,1,2,3,4,5,6,7] #add more number according to your numbers of questions
