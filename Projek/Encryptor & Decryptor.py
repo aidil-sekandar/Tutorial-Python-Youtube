@@ -5,7 +5,6 @@ semua_huruf = s.ascii_letters
 huruf_besar = s.ascii_uppercase
 huruf_kecil = s.ascii_lowercase
 
-
 def pembahagi():
     print("------------------------------------------------------\n")
 
@@ -177,7 +176,6 @@ def main():
         pembahagi()
         sleep(2)
         exit()
-
 
 if __name__ == "__main__":
     main()
