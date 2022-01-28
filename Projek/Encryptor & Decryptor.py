@@ -159,9 +159,9 @@ def kredit():
 
 
 def main():
-    print("================================")
-    print("SELAMAT DATANG KE 'DUNIA SIFER'!")
-    print("================================\n")
+    print("======================")
+    print("ENCRYPTOR & DECRYPTOR!")
+    print("======================\n")
     print(">> Menu <<")
     print("[ 1 ] Mula")
     print("[ 2 ] Kredit")
@@ -177,7 +177,6 @@ def main():
         pembahagi()
         sleep(2)
         exit()
-
 
 if __name__ == "__main__":
     main()
