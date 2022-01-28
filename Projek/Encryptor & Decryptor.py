@@ -148,7 +148,7 @@ def kredit():
     print("KREDIT")
     print("======\n")
     print("Pencipta: Aidil Iskandar")
-    print("Link Github: https://github.com/aidil-sekandar/sifer-python")
+    print("Link Github: https://github.com/aidil-sekandar/Projek-Python/blob/main/Projek/Encryptor%20&%20Decryptor.py")
     print("\n=============")
     print("Terima Kasih!")
     print("=============\n")
