@@ -1,4 +1,4 @@
-from random import shuffle # use this module to use shuffle function
+from random import shuffle # use this module to use shuffle method
 
 questions = [
 ["What does HTML stand for?\n\na. Hyper Trainer Marking Language\nb. Hyper Text Marketing Language\nc. Hyper Text Markup Language\nd. Hyper Text Markup Leveler","c"],
