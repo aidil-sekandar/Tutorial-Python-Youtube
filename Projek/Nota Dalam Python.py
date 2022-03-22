@@ -1,7 +1,7 @@
 fail = open("nota.txt", "w+")
 fail.write("NOTA ANDA:\n===========\n\n")
 fail.close()
-fail = open("nota.txt", "a")
+file = open("nota.txt", "a")
 
 
 def menu():
@@ -19,9 +19,10 @@ def main():
         if nota == "exit()":
             break
         else:
-            fail.write(f"{nota}\n")
+            file.write(f"{nota}\n")
 
     print("\nTerima Kasih")
+    file.close()
 
 
 if __name__ == "__main__":
